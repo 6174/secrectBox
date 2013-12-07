@@ -13,7 +13,7 @@
 
         <!-- back button-->
         <Button
-                android:id="@+id/BackBtn"
+                android:id="@+id/NavBackBtn"
                 android:layout_width="60dip"
                 android:layout_height="50dip"
                 android:layout_centerVertical="true"
@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:text="附近100米"
                 android:layout_centerVertical="true"
-                android:layout_toRightOf="@id/BackBtn"
+                android:layout_toRightOf="@id/NavBackBtn"
                 android:layout_marginLeft="3dip"
                 />
 
@@ -42,6 +42,7 @@
 
     <!--content-->
     <ListView
+            android:id="@+id/TreasureList"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:background="#ffffff"></ListView>
