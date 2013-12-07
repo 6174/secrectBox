@@ -2,17 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-        >
-
+              android:layout_height="fill_parent">
     <!-- Header -->
     <RelativeLayout
             android:layout_width="fill_parent"
+            android:orientation="vertical"
             android:layout_height="200dip"
             android:background="#fff">
-
+        <!-- user Info status block-->
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dip"
+                android:layout_alignParentBottom="true">
+            <RelativeLayout
+                    android:layout_width="100dip"
+                    android:layout_height="80dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#ff65ffda"
+                    android:layout_centerHorizontal="true">
+            </RelativeLayout>
+        </RelativeLayout>
     </RelativeLayout>
-
     <!-- Body  -->
     <RelativeLayout
             android:layout_width="fill_parent"
@@ -106,11 +116,5 @@
         </LinearLayout>
 
     </RelativeLayout>
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, HomeActivity"
-            />
-
 </LinearLayout>
 
