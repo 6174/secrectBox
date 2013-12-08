@@ -2,6 +2,7 @@ package com.android.secrectBox;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.Loader;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -67,6 +68,13 @@ public class HomeActivity extends Activity {
                 Log.i(LOGTAG, "clicked navCreateBtn");
 //                toast("clicked navCreateBtn");
                 common.goTo( HomeActivity.this,CreateActivity.class);
+            }
+        });
+
+        navSettingBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                common.goTo(HomeActivity.this, LocationSelectActivity.class);
             }
         });
     }
