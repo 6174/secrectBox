@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
+              android:background="@color/bg_default"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent">
     <!-- Header -->
     <RelativeLayout
             android:layout_width="fill_parent"
             android:orientation="vertical"
-            android:layout_height="200dip"
+            android:layout_height="240dip"
             android:background="#fff">
+        <!-- slider -->
+        <com.android.nx.view.BannerLayout
+                android:id="@+id/Banner"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" >
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/gsydgsdfasdqwf" />
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/hsfttyodfsd" />
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/tsdssbd" />
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/sdfdsf" />
+        </com.android.nx.view.BannerLayout>
+
         <!-- user Info status block-->
         <RelativeLayout
                 android:layout_width="fill_parent"
@@ -23,102 +57,39 @@
             </RelativeLayout>
         </RelativeLayout>
     </RelativeLayout>
-    <!-- Body  -->
-    <RelativeLayout
+    <!-- Navigation -->
+    <TableLayout
             android:layout_width="fill_parent"
-            android:layout_height="340dip"
-            android:background="#454545">
-        <!-- Navigation -->
-        <LinearLayout
-                android:id="@+id/HomeNavigation"
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="300dip"
-                android:layout_centerHorizontal="true"
-                android:background="#fefefe"
-                android:layout_marginTop="10dip"
-                android:gravity="center">
-            <!-- top block container row-->
-            <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:orientation="horizontal"
-                    android:layout_weight="1"
-                    android:layout_height="150dip">
-                <!-- nav block-->
-                <RelativeLayout
-                                android:id="@+id/NavFindBtn"
-                                android:layout_width="1dip"
-                                android:layout_weight="5"
-                                android:background="#fe1212"
-                                android:layout_height="fill_parent">
-                    <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="#000000"
-                            android:text="FIND"
-                            android:layout_centerHorizontal="true"
-                            android:layout_centerVertical="true"
-                            android:textSize="30sp"/>
-                </RelativeLayout>
-                <!-- nav block-->>
-                <RelativeLayout
-                        android:id="@+id/NavCreateBtn"
-                        android:layout_width="1dip"
-                        android:layout_weight="5"
-                        android:background="#12fe12"
-                        android:layout_height="fill_parent">
-                    <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="#000000"
-                            android:text="CREATE"
-                            android:layout_centerHorizontal="true"
-                            android:layout_centerVertical="true"
-                            android:textSize="30sp"/>
-                </RelativeLayout>
-            </LinearLayout>
-
-            <!-- bottom block container row-->
-            <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:orientation="horizontal"
-                    android:layout_weight="1"
-                    android:layout_height="150dip">
-                <!-- nav block-->
-                <RelativeLayout
-                        android:id="@+id/NavUserSpaceBtn"
-                        android:layout_width="1dip"
-                        android:layout_weight="5"
-                        android:background="#fefe12"
-                        android:layout_height="fill_parent">
-                    <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="#000000"
-                            android:text="ME"
-                            android:layout_centerHorizontal="true"
-                            android:layout_centerVertical="true"
-                            android:textSize="30sp"/>
-                </RelativeLayout>
-                <!-- nav block-->
-                <RelativeLayout
-                        android:id="@+id/NavSettingBtn"
-                        android:layout_width="1dip"
-                        android:layout_weight="5"
-                        android:background="#12fefe"
-                        android:layout_height="fill_parent">
-                    <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="#000000"
-                            android:text="SETTING"
-                            android:layout_centerHorizontal="true"
-                            android:layout_centerVertical="true"
-                            android:textSize="30sp"/>
-                </RelativeLayout>
-            </LinearLayout>
-        </LinearLayout>
-
-    </RelativeLayout>
+            android:layout_height="fill_parent">
+        <!-- top block container row-->
+        <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <!-- nav block-->
+            <RelativeLayout  android:id="@+id/NavFindBtn"  style="@style/main_nav_team">
+                <TextView  android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:textColor="#000000"  android:text="FIND" android:layout_centerHorizontal="true"  android:layout_centerVertical="true" android:textSize="30sp"/>
+            </RelativeLayout>
+            <RelativeLayout android:background="@color/ddt_line_one" android:layout_width="@dimen/single_pix" android:layout_height="fill_parent" android:layout_marginTop="@dimen/ddt_mg_10" />
+            <!-- nav block-->>
+            <RelativeLayout android:id="@+id/NavCreateBtn" style="@style/main_nav_team">
+                <TextView  android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:textColor="#000000"  android:text="CREATE"  android:layout_centerHorizontal="true"  android:layout_centerVertical="true" android:textSize="30sp"/>
+            </RelativeLayout>
+        </TableRow>
+        <!-- divider -->
+        <TableRow android:paddingLeft="@dimen/ddt_mg_10"  android:paddingRight="@dimen/ddt_mg_10"  android:layout_width="fill_parent"  android:layout_height="wrap_content">
+            <RelativeLayout android:background="@color/ddt_line_one" android:layout_width="9999.0dip" android:layout_height="@dimen/single_pix" />
+        </TableRow>
+        <!-- bottom block container row-->
+        <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <!-- nav block-->
+            <RelativeLayout android:id="@+id/NavUserSpaceBtn"  style="@style/main_nav_team">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#000000" android:text="ME"   android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:textSize="30sp"/>
+            </RelativeLayout>
+            <!--divider-->
+            <RelativeLayout android:background="@color/ddt_line_one" android:layout_width="@dimen/single_pix" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/ddt_mg_10" />
+            <!-- nav block-->
+            <RelativeLayout android:id="@+id/NavSettingBtn" style="@style/main_nav_team">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#000000"  android:text="SETTING"  android:layout_centerHorizontal="true"  android:layout_centerVertical="true" android:textSize="30sp"/>
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
 </LinearLayout>
 
