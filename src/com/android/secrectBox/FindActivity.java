@@ -10,6 +10,8 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+import cn.trinea.android.common.view.DropDownListView;
+import cn.trinea.android.common.view.DropDownListView.OnDropDownListener;
 
 /**
  * Created by zhutou on 13-12-7.
@@ -19,7 +21,7 @@ public class FindActivity extends Activity {
     private String LOGTAG;
     //--UI Elements
     private Button navBackBtn;
-    private ListView treasureListEl;
+    private DropDownListView treasureListEl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -27,6 +29,9 @@ public class FindActivity extends Activity {
         setContentView(R.layout.find_conetnt);
         init();
     }
+//    private void nullFUnc(){
+//
+//    }
     private void init(){
         initCommon();
         initUIElements();
@@ -44,7 +49,7 @@ public class FindActivity extends Activity {
     }
 
     private void initListView(){
-        treasureListEl = (ListView)findViewById(R.id.TreasureList);
+        treasureListEl = (DropDownListView)findViewById(R.id.TreasureList);
         TreasureListAdapter adapter = new TreasureListAdapter();
         treasureListEl.setAdapter(adapter);
     }
@@ -55,6 +60,22 @@ public class FindActivity extends Activity {
             public void onClick(View view) {
                 Log.i(LOGTAG, "click navBackBtn");
                 finish();
+            }
+        });
+        treasureListEl.setOnDropDownListener(new OnDropDownListener() {
+
+            @Override
+            public void onDropDown() {
+//                new GetDataTask(true).execute();
+            }
+        });
+
+        // set on bottom listener
+        treasureListEl.setOnBottomListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+//                new GetDataTask(false).execute();
             }
         });
     }

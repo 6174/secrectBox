@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:listViewAttr="http://schemas.android.com/apk/res/com.android.secrectBox"
               android:orientation="vertical"
+              android:background="@color/bg_default"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -41,9 +43,18 @@
     </RelativeLayout>
 
     <!--content-->
-    <ListView
+    <!--<ListView-->
+            <!--android:id="@+id/TreasureList"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:background="#ffffff"></ListView>-->
+    <cn.trinea.android.common.view.DropDownListView
             android:id="@+id/TreasureList"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="#ffffff"></ListView>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="false"
+            android:paddingBottom="10dip"
+            listViewAttr:isDropDownStyle="true"
+            listViewAttr:isOnBottomStyle="true"
+            listViewAttr:isAutoLoadOnBottom="true" />
 </LinearLayout>

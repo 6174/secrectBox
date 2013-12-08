@@ -52,7 +52,7 @@
                     android:layout_width="100dip"
                     android:layout_height="80dip"
                     android:layout_marginTop="10dip"
-                    android:background="#ff65ffda"
+                    android:background="#ff3b2e4f"
                     android:layout_centerHorizontal="true">
             </RelativeLayout>
         </RelativeLayout>
