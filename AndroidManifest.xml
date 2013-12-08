@@ -25,5 +25,6 @@
         </activity>
 
         <activity android:name=".FindActivity"></activity>
+        <activity android:name=".CreateActivity"></activity>
     </application>
 </manifest>

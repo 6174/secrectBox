@@ -15,7 +15,8 @@ import android.widget.TextView;
  * Created by zhutou on 13-12-7.
  */
 public class FindActivity extends Activity {
-    final private String LOGTAG = "6174-FindActivity";
+    private Common common;
+    private String LOGTAG;
     //--UI Elements
     private Button navBackBtn;
     private ListView treasureListEl;
@@ -27,8 +28,14 @@ public class FindActivity extends Activity {
         init();
     }
     private void init(){
+        initCommon();
         initUIElements();
         initUIElementEvents();
+    }
+
+    private void initCommon(){
+        common = Common.getInstance();
+        LOGTAG = common.getTag();
     }
 
     private void  initUIElements(){

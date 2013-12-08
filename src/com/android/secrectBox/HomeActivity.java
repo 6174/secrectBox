@@ -10,7 +10,8 @@ import android.util.Log;
 import android.widget.Toast;
 
 public class HomeActivity extends Activity {
-    final private String LOGTAG = "6174-homeActivity";
+    private Common common;
+    private String LOGTAG;
     //--UI Elements
     //-Navigation Button groups
     private RelativeLayout navFindBtn;
@@ -29,9 +30,16 @@ public class HomeActivity extends Activity {
     }
 
     private void init(){
+        initCommon();
         initUIElements();
         initUIElementEvents();
     }
+
+    private void initCommon(){
+        common = Common.getInstance();
+        LOGTAG = common.getTag();
+    }
+
 
     private void initUIElements(){
         navFindBtn = (RelativeLayout)findViewById(R.id.NavFindBtn);
@@ -49,9 +57,7 @@ public class HomeActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Log.i(LOGTAG, "clicked navFIndBtn");
-                Intent intent = new Intent();
-                intent.setClass(HomeActivity.this, FindActivity.class);
-                startActivity(intent);
+                common.goTo(HomeActivity.this, FindActivity.class);
             }
         });
 
@@ -59,16 +65,9 @@ public class HomeActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Log.i(LOGTAG, "clicked navCreateBtn");
-                toast("clicked navCreateBtn");
+//                toast("clicked navCreateBtn");
+                common.goTo( HomeActivity.this,CreateActivity.class);
             }
         });
-    }
-
-    private void toast(String info){
-        Toast toast;
-        toast = Toast.makeText(getApplicationContext(),
-                info, Toast.LENGTH_LONG);
-        toast.setGravity(Gravity.CENTER, 0, 0);
-        toast.show();
     }
 }
