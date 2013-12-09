@@ -30,7 +30,18 @@ public class Common {
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
     }
+
     public String getTag(){
         return LOGTAG;
+    }
+
+    public int dip2px(Context context, float dpValue) {
+        final float scale = context.getResources().getDisplayMetrics().density;
+        return (int) (dpValue * scale + 0.5f);
+    }
+
+    public int px2dip(Context context, float pxValue) {
+        final float scale = context.getResources().getDisplayMetrics().density;
+        return (int) (pxValue / scale + 0.5f);
     }
 }

@@ -16,6 +16,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10d198dc-ee68-4bf2-b47f-3b12e940a454" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AndroidCommon/AndroidCommon.iml" />
+      <change type="DELETED" beforePath="D:\workspace\idea\secrectBox\res\design\real_pixels.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/res/drawable-hdpi/drop_down_list_arrow.png" afterPath="$PROJECT_DIR$/../AndroidCommon/res/drawable-hdpi/drop_down_list_arrow.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/res/drawable-ldpi/drop_down_list_arrow.png" afterPath="$PROJECT_DIR$/../AndroidCommon/res/drawable-ldpi/drop_down_list_arrow.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/res/drawable-mdpi/drop_down_list_arrow.png" afterPath="$PROJECT_DIR$/../AndroidCommon/res/drawable-mdpi/drop_down_list_arrow.png" />
@@ -28,6 +29,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/service/Cache.java" afterPath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/service/Cache.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/service/CacheFullRemoveType.java" afterPath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/service/CacheFullRemoveType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/entity/CacheObject.java" afterPath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/entity/CacheObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/secrectBox/Common.java" afterPath="$PROJECT_DIR$/src/com/android/secrectBox/Common.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/constant/DbConstants.java" afterPath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/constant/DbConstants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/util/DbHelper.java" afterPath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/util/DbHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/util/DownloadManagerPro.java" afterPath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/util/DownloadManagerPro.java" />
@@ -38,6 +40,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/service/impl/FileNameRuleCurrentTime.java" afterPath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/service/impl/FileNameRuleCurrentTime.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/service/impl/FileNameRuleImageUrl.java" afterPath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/service/impl/FileNameRuleImageUrl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/util/FileUtils.java" afterPath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/util/FileUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/view/HorizontalListView.java" afterPath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/view/HorizontalListView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/service/HttpCache.java" afterPath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/service/HttpCache.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/dao/HttpCacheDao.java" afterPath="$PROJECT_DIR$/../AndroidCommon/src/cn/trinea/android/common/dao/HttpCacheDao.java" />
@@ -92,11 +95,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/res/values/dimens.xml" afterPath="$PROJECT_DIR$/../AndroidCommon/res/values/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/res/layout/drop_down_list_footer.xml" afterPath="$PROJECT_DIR$/../AndroidCommon/res/layout/drop_down_list_footer.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/res/layout/drop_down_list_header.xml" afterPath="$PROJECT_DIR$/../AndroidCommon/res/layout/drop_down_list_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/home_content.xml" afterPath="$PROJECT_DIR$/res/layout/home_content.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/proguard.cfg" afterPath="$PROJECT_DIR$/../AndroidCommon/proguard.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/project.properties" afterPath="$PROJECT_DIR$/../AndroidCommon/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/res/values/strings.xml" afterPath="$PROJECT_DIR$/../AndroidCommon/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/res/values-zh-rCN/strings.xml" afterPath="$PROJECT_DIR$/../AndroidCommon/res/values-zh-rCN/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidCommon/res/values/styles.xml" afterPath="$PROJECT_DIR$/../AndroidCommon/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="secrectBox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -160,25 +165,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LocationSelectActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/LocationSelectActivity.java">
+      <file leaf-file-name="home_content.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/home_content.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="187" column="17" selection-start="0" selection-end="12384" vertical-scroll-proportion="0.0" vertical-offset="2379" max-vertical-offset="6403">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2544#2761#0" expanded="true" />
-                <element signature="e#2750#2751#0" expanded="true" />
-                <element signature="method#initMapListener#0;class#LocationSelectActivity#0" expanded="false" />
-                <element signature="class#MyGeneralListener#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="location_select_content.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/location_select_content.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="47" selection-start="0" selection-end="2575" vertical-scroll-proportion="-9.038462" vertical-offset="772" max-vertical-offset="1292">
+            <state line="7" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="-5.0384617" vertical-offset="2" max-vertical-offset="3268">
               <folding />
             </state>
           </provider>
@@ -187,49 +177,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="find_conetnt.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/find_conetnt.xml">
+      <file leaf-file-name="HomeActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="614" selection-end="614" vertical-scroll-proportion="-1.4615384" vertical-offset="247" max-vertical-offset="1235">
+            <state line="96" column="32" selection-start="3080" selection-end="3080" vertical-scroll-proportion="0.66422015" vertical-offset="1025" max-vertical-offset="2033">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Common.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/Common.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="37" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="665">
+            <state line="42" column="10" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="912">
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#365#366#0" expanded="false" />
-                <element signature="e#399#400#0" expanded="false" />
-                <element signature="e#889#890#0" expanded="false" />
-                <element signature="e#918#919#0" expanded="false" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="42" selection-start="0" selection-end="3864" vertical-scroll-proportion="0.60687023" vertical-offset="1069" max-vertical-offset="1615">
-              <folding>
-                <element signature="e#3232#3250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BannerLayout.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/nx/view/BannerLayout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="39" selection-start="3046" selection-end="3046" vertical-scroll-proportion="0.0" vertical-offset="1939" max-vertical-offset="2850">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -250,9 +214,11 @@
         <option value="$PROJECT_DIR$/res/layout/location_select_content.xml" />
         <option value="$PROJECT_DIR$/src/com/android/secrectBox/BaiduDemo.java" />
         <option value="$PROJECT_DIR$/src/com/android/secrectBox/LocationOverlayDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java" />
         <option value="$PROJECT_DIR$/src/com/android/secrectBox/LocationSelectActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/home_content.xml" />
+        <option value="$PROJECT_DIR$/src/com/android/secrectBox/Common.java" />
+        <option value="$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java" />
       </list>
     </option>
   </component>
@@ -288,8 +254,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -306,32 +272,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="secrectBox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secrectBox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secrectBox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secrectBox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocationSelectActivity.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -410,38 +350,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secrectBox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secrectBox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secrectBox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secrectBox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armeabi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -459,6 +367,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -500,6 +409,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -525,19 +447,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -638,24 +547,24 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16587302" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2595238" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48171702" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4675119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.089030206" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4674086" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09062003" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22979398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06359301" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28526148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34340224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -685,16 +594,61 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/res/layout/home_content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="23" selection-start="2801" selection-end="2801" vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="3287">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="36" selection-start="3501" selection-end="3501" vertical-scroll-proportion="0.0" vertical-offset="1406" max-vertical-offset="1406">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/home_content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="38" selection-start="2573" selection-end="2582" vertical-scroll-proportion="0.0" vertical-offset="1178" max-vertical-offset="3287">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="29" selection-start="3229" selection-end="3229" vertical-scroll-proportion="0.0" vertical-offset="1634" max-vertical-offset="1691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/LocationSelectActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="17" selection-start="0" selection-end="12384" vertical-scroll-proportion="0.0" vertical-offset="3553" max-vertical-offset="7752">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/location_select_content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="0" selection-end="2575" vertical-scroll-proportion="0.0" vertical-offset="772" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/LocationSelectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="189" column="37" selection-start="5455" selection-end="5472" vertical-scroll-proportion="0.0" vertical-offset="3591" max-vertical-offset="4484">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2544#2761#0" expanded="true" />
-            <element signature="e#2750#2751#0" expanded="true" />
-            <element signature="method#initMapListener#0;class#LocationSelectActivity#0" expanded="false" />
-            <element signature="class#MyGeneralListener#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -722,11 +676,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="37" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="798">
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-            <element signature="e#399#400#0" expanded="false" />
-            <element signature="e#889#890#0" expanded="false" />
-            <element signature="e#918#919#0" expanded="false" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -743,13 +694,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/LocationSelectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="11" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0" vertical-offset="635" max-vertical-offset="4180">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2544#2761#0" expanded="true" />
-            <element signature="e#2750#2751#0" expanded="true" />
-            <element signature="method#initMapListener#0;class#LocationSelectActivity#0" expanded="false" />
-            <element signature="class#MyGeneralListener#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -766,12 +711,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="10" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0" vertical-offset="1109" max-vertical-offset="1653">
-          <folding>
-            <element signature="e#1855#2148#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2193#2390#0" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -786,11 +726,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="798">
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-            <element signature="e#399#400#0" expanded="false" />
-            <element signature="e#889#890#0" expanded="false" />
-            <element signature="e#918#919#0" expanded="false" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -807,13 +744,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/LocationSelectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="10" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="1178">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2544#2761#0" expanded="true" />
-            <element signature="e#2750#2751#0" expanded="true" />
-            <element signature="method#initMapListener#0;class#LocationSelectActivity#0" expanded="false" />
-            <element signature="class#MyGeneralListener#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -830,12 +761,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="10" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0" vertical-offset="1109" max-vertical-offset="1653">
-          <folding>
-            <element signature="e#1855#2148#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2193#2390#0" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -850,11 +776,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="798">
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-            <element signature="e#399#400#0" expanded="false" />
-            <element signature="e#889#890#0" expanded="false" />
-            <element signature="e#918#919#0" expanded="false" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -871,13 +794,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/LocationSelectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="0" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="1235">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2544#2761#0" expanded="true" />
-            <element signature="e#2750#2751#0" expanded="true" />
-            <element signature="method#initMapListener#0;class#LocationSelectActivity#0" expanded="false" />
-            <element signature="class#MyGeneralListener#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -894,12 +811,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="10" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0" vertical-offset="1109" max-vertical-offset="1653">
-          <folding>
-            <element signature="e#1855#2148#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2193#2390#0" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,11 +826,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="798">
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-            <element signature="e#399#400#0" expanded="false" />
-            <element signature="e#889#890#0" expanded="false" />
-            <element signature="e#918#919#0" expanded="false" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -935,63 +844,28 @@
     <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/LocationSelectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="26" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="646">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2544#2761#0" expanded="true" />
-            <element signature="e#2750#2751#0" expanded="true" />
-            <element signature="method#initMapListener#0;class#LocationSelectActivity#0" expanded="false" />
-            <element signature="class#MyGeneralListener#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="1520">
-          <folding>
-            <element signature="e#1855#2148#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2193#2390#0" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/LocationSelectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="26" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2544#2761#0" expanded="true" />
-            <element signature="e#2750#2751#0" expanded="true" />
-            <element signature="method#initMapListener#0;class#LocationSelectActivity#0" expanded="false" />
-            <element signature="class#MyGeneralListener#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="1349">
-          <folding>
-            <element signature="e#1855#2148#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2193#2390#0" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="37" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="665">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-            <element signature="e#399#400#0" expanded="false" />
-            <element signature="e#889#890#0" expanded="false" />
-            <element signature="e#918#919#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,41 +886,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="2151" selection-end="2151" vertical-scroll-proportion="0.6069959" vertical-offset="864" max-vertical-offset="1444">
-          <folding>
-            <element signature="e#1855#2148#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2193#2390#0" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/nx/view/BannerLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="39" selection-start="3046" selection-end="3046" vertical-scroll-proportion="0.0" vertical-offset="1939" max-vertical-offset="2850">
-          <folding />
-        </state>
+        <state line="88" column="39" selection-start="3046" selection-end="3046" vertical-scroll-proportion="0.0" vertical-offset="1939" max-vertical-offset="2850" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/LocationSelectActivity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="17" selection-start="0" selection-end="12384" vertical-scroll-proportion="0.0" vertical-offset="2379" max-vertical-offset="6403">
+        <state line="73" column="42" selection-start="0" selection-end="3864" vertical-scroll-proportion="0.5824176" vertical-offset="1069" max-vertical-offset="1615">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2544#2761#0" expanded="true" />
-            <element signature="e#2750#2751#0" expanded="true" />
-            <element signature="method#initMapListener#0;class#LocationSelectActivity#0" expanded="false" />
-            <element signature="class#MyGeneralListener#0" expanded="false" />
+            <element signature="e#3232#3250#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/location_select_content.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="47" selection-start="0" selection-end="2575" vertical-scroll-proportion="-9.038462" vertical-offset="772" max-vertical-offset="1292">
+        <state line="47" column="38" selection-start="1647" selection-end="2091" vertical-scroll-proportion="0.38314176" vertical-offset="693" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
@@ -1054,12 +910,37 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/LocationSelectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="42" selection-start="0" selection-end="3864" vertical-scroll-proportion="0.60687023" vertical-offset="1069" max-vertical-offset="1615">
+        <state line="187" column="17" selection-start="0" selection-end="12384" vertical-scroll-proportion="-0.8168224" vertical-offset="3553" max-vertical-offset="7315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="10" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="912">
           <folding>
-            <element signature="e#3232#3250#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/home_content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="-5.0384617" vertical-offset="2" max-vertical-offset="3268">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/secrectBox/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="32" selection-start="3080" selection-end="3080" vertical-scroll-proportion="0.66422015" vertical-offset="1025" max-vertical-offset="2033">
+          <folding />
         </state>
       </provider>
     </entry>
