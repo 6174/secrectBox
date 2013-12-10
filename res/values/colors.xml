@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--COMMON-->
+    <color name="nx_main_text">#ffababab</color>
     <color name="tf_reply_background">#ffdcdcdc</color>
     <color name="tf_Q_green">#ff82b55e</color>
     <color name="tf_G_gray">#ffcccccc</color>

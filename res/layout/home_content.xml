@@ -69,7 +69,7 @@
                 android:id="@+id/PageFrontHeader"
                 android:layout_width="fill_parent"
                 android:orientation="vertical"
-                android:layout_height="240dip"
+                android:layout_height="230dip"
                 android:background="#fff">
             <!-- slider -->
             <com.android.nx.view.BannerLayout
@@ -113,34 +113,65 @@
             <!-- user Info status block-->
             <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dip"
                     android:layout_alignParentBottom="true">
                 <RelativeLayout
                         android:layout_width="100dip"
-                        android:layout_height="80dip"
+                        android:layout_height="130dip"
                         android:layout_marginTop="10dip"
-                        android:background="#ff3b2e4f"
                         android:layout_centerHorizontal="true">
+                    <com.android.nx.view.CircleImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/home_user_photo"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="Jesica Alba"
+                            android:textStyle="bold"
+                            android:textColor="@color/f0f0f0"
+                            android:textSize="18sp"
+                            android:layout_alignParentBottom="true"/>
                 </RelativeLayout>
             </RelativeLayout>
 
         </RelativeLayout>
+        
+        <RelativeLayout
+                android:layout_below="@id/PageFrontHeader"
+                android:id="@+id/PromoTextContainer"
+                android:layout_width="match_parent"
+                android:padding="4dip"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/PromoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:layout_centerInParent="true"
+                    android:text="念念不忘， 必有回响！"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_below="@id/PromoTextContainer" android:background="@color/ddt_line_one"  android:layout_width="match_parent" android:layout_height="@dimen/single_pix" />
 
         <!-- Navigation -->
         <TableLayout
-                android:layout_below="@id/PageFrontHeader"
+                android:layout_below="@id/PromoTextContainer"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
             <!-- top block container row-->
             <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
                 <!-- nav block-->
                 <RelativeLayout  android:id="@+id/NavFindBtn"  style="@style/main_nav_team">
-                    <TextView  android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:textColor="#000000"  android:text="FIND" android:layout_centerHorizontal="true"  android:layout_centerVertical="true" android:textSize="30sp"/>
+                    <ImageView android:id="@+id/nav_image" android:src="@drawable/map" android:layout_centerVertical="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <TextView  android:text="Find" android:textColor="@color/nx_main_text" android:textSize="21sp" android:layout_marginLeft="15dip" android:layout_centerVertical="true" android:layout_toRightOf="@id/nav_image" android:layout_width="wrap_content"  android:layout_height="wrap_content"/>
                 </RelativeLayout>
                 <RelativeLayout android:background="@color/ddt_line_one" android:layout_width="@dimen/single_pix" android:layout_height="fill_parent" android:layout_marginTop="@dimen/ddt_mg_10" />
                 <!-- nav block-->>
                 <RelativeLayout android:id="@+id/NavCreateBtn" style="@style/main_nav_team">
-                    <TextView  android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:textColor="#000000"  android:text="CREATE"  android:layout_centerHorizontal="true"  android:layout_centerVertical="true" android:textSize="30sp"/>
+                    <ImageView android:id="@+id/nav_image" android:src="@drawable/pin" android:layout_centerVertical="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <TextView  android:text="Create" android:textColor="@color/nx_main_text" android:textSize="21sp" android:layout_marginLeft="15dip" android:layout_centerVertical="true" android:layout_toRightOf="@id/nav_image" android:layout_width="wrap_content"  android:layout_height="wrap_content"/>
                 </RelativeLayout>
             </TableRow>
             <!-- divider -->
@@ -151,13 +182,15 @@
             <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
                 <!-- nav block-->
                 <RelativeLayout android:id="@+id/NavUserSpaceBtn"  style="@style/main_nav_team">
-                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#000000" android:text="ME"   android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:textSize="30sp"/>
+                    <ImageView android:id="@+id/nav_image" android:src="@drawable/skull" android:layout_centerVertical="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <TextView  android:text="Public" android:textColor="@color/nx_main_text" android:textSize="21sp" android:layout_marginLeft="15dip" android:layout_centerVertical="true" android:layout_toRightOf="@id/nav_image" android:layout_width="wrap_content"  android:layout_height="wrap_content"/>
                 </RelativeLayout>
                 <!--divider-->
                 <RelativeLayout android:background="@color/ddt_line_one" android:layout_width="@dimen/single_pix" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/ddt_mg_10" />
                 <!-- nav block-->
                 <RelativeLayout android:id="@+id/NavSettingBtn" style="@style/main_nav_team">
-                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#000000"  android:text="SETTING"  android:layout_centerHorizontal="true"  android:layout_centerVertical="true" android:textSize="30sp"/>
+                    <ImageView  android:id="@+id/nav_image" android:src="@drawable/tactics" android:layout_centerVertical="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <TextView  android:text="Likes" android:textColor="@color/nx_main_text" android:textSize="21sp" android:layout_marginLeft="15dip" android:layout_centerVertical="true" android:layout_toRightOf="@id/nav_image" android:layout_width="wrap_content"  android:layout_height="wrap_content"/>
                 </RelativeLayout>
             </TableRow>
         </TableLayout>
