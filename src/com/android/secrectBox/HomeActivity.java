@@ -86,7 +86,7 @@ public class HomeActivity extends Activity {
         navSettingBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                common.goTo(HomeActivity.this, LocationSelectActivity.class);
+              //--common.goTo(HomeActivity.this, LocationSelectActivity.class);
             }
         });
 

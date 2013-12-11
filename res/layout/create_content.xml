@@ -18,6 +18,7 @@
                 android:layout_height="50dip"
                 android:layout_centerVertical="true"
                 android:text="back"/>
+
         <!-- title -->
         <TextView
                 android:layout_width="wrap_content"
@@ -69,10 +70,19 @@
                     android:textSize="20sp"
                     android:background="#fefefe"
                     android:layout_width="fill_parent"
-                    android:lines="5"
-                    android:maxLines="10"
                     android:minLines="5"
+                    android:maxLines="10"
+                    android:autoText="true"
                     android:layout_height="60dip"/>
+        </RelativeLayout>
+
+        <!-- Position -->
+        <RelativeLayout android:layout_width="fill_parent" android:paddingLeft="30dip" android:paddingRight="30dip" android:layout_height="120dip">
+            <TextView
+                    android:id="@+id/PositionSelect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="点击设置位置"/>
         </RelativeLayout>
 
 

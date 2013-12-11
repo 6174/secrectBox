@@ -7,11 +7,13 @@ import android.graphics.Bitmap;
 import android.location.Location;
 import android.location.LocationListener;
 import android.os.Bundle;
+import android.sax.RootElement;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 import com.baidu.location.BDLocation;
 import com.baidu.location.BDLocationListener;
@@ -35,6 +37,8 @@ public class LocationSelectActivity extends Activity{
 
     //--ui elements
     Button requestLocationBtn;
+    RelativeLayout cancelBtn;
+    RelativeLayout okBtn;
 
     //--map objects
     MyLocationMapView mMapView = null;
@@ -82,6 +86,8 @@ public class LocationSelectActivity extends Activity{
     private void initUIElements(){
         requestLocationBtn = (Button)findViewById(R.id.RequestLocationBtn);
         mMapView = (MyLocationMapView)findViewById(R.id.bmapView);
+        cancelBtn = (RelativeLayout)findViewById(R.id.CancelBtn);
+        okBtn = (RelativeLayout)findViewById(R.id.OkBtn);
     }
 
     private void initUIEvents(){
@@ -90,6 +96,25 @@ public class LocationSelectActivity extends Activity{
             public void onClick(View view) {
                 Log.i(LOGTAG, "clicked request location btn");
                 requestLocation();
+            }
+        });
+
+        cancelBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = getIntent();
+                setResult(0, intent);
+                finish();
+            }
+        });
+
+        okBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = getIntent();
+                intent.putExtra("user_name", "new-6174");
+                setResult(1, intent);
+                finish();
             }
         });
     }

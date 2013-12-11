@@ -18,7 +18,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true">
         <RelativeLayout
-                android:id="@+id/BackBtn"
+                android:id="@+id/CancelBtn"
                 android:layout_width="1dip"
                 android:layout_height="fill_parent"
                 android:layout_weight="1">
@@ -30,7 +30,7 @@
                     android:layout_centerVertical="true"
                     android:textSize="20sp"
                     android:textColor="@color/ddt_hd_type_text"
-                    android:text="back"/>
+                    android:text="cancel"/>
         </RelativeLayout>
         <RelativeLayout
                 android:id="@+id/OkBtn"
